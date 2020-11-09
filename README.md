@@ -4,7 +4,7 @@
 
 #### For Firefox:
 
-go to the [debugging page](about:debugging#/runtime/this-firefox) in Firefox
+go to the debugging page (<about:debugging#/runtime/this-firefox>) in Firefox
 
 then click **"Load Temporary Add-on"** and load the **manifest.json** from the "add-on" folder.
 
@@ -12,7 +12,7 @@ then click **"Load Temporary Add-on"** and load the **manifest.json** from the "
 
 #### For Chrome:
 
-goto to the [extension page](chrome://extensions/) in Chrome
+goto to the [extension page](<chrome://extensions/>) in Chrome
 
 click **"Load unpacked"** and choose the **"add-on" folder**.
 
