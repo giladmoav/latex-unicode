@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp_latex",
+  "version": "1.0.0",
+  "description": "converts from latex code to unicode",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "unicodeit": "^0.7.0"
+  },
+  "dependencies": {}
+}
