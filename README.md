@@ -13,6 +13,6 @@ click "Load Temporary Add-on" and load the manifest.json from the "add-on" folde
 goto to the extension page in Chrome( chrome://extensions/ )
 click "Load unpacked" and choose the "add-on" folder.
 
-##Using the extension:
+## Using the extension:
 
 write your Whatsapp and use $$some latex code$$ then highlight it and click it.
