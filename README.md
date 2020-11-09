@@ -1,14 +1,14 @@
 # latex to unicode for Whatsapp
 
-##Adding the extension:
+## Adding the extension:
 
-####For Firefox:
+#### For Firefox:
 
 go to the debugging page in firefox( about:debugging#/runtime/this-firefox )
 click "Load Temporary Add-on" and load the manifest.json from the "add-on" folder.
 
 
-####For Chrome:
+#### For Chrome:
 
 goto to the extension page in Chrome( chrome://extensions/ )
 click "Load unpacked" and choose the "add-on" folder.
