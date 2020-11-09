@@ -12,16 +12,18 @@ function wordSelected() {
     .trim();
   
   if (selectedText.length > 0 && selectedText.slice(0,2)=="$$" && selectedText.slice(-2)=="$$") {
-    f1(selectedText.slice(2,-2))
+    f1(selectedText);
   }
 }
 
 
 function f1(text) {
   msg_box= document.querySelectorAll("[contenteditable='true']")[1];
-  unicode= unicodeit.replace(text)
-  msg_box.innerHTML += unicode
-  console.log(unicode);
+  unicode= unicodeit.replace(text.slice(2,-2));
+  // console.log(unicode);
+  current_message= msg_box.innerHTML;
+  // console.log(current_message);
+  msg_box.innerHTML = current_message.replace(text,unicode);
 }
 },{"unicodeit":3}],2:[function(require,module,exports){
 "use strict";
