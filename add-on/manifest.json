@@ -2,19 +2,12 @@
   "manifest_version": 2,
   "name": "latex to unicode",
   "version": "0.1",
-  "content_scripts": [
-    {
-      "matches": ["https://web.whatsapp.com/"],
-      "js": ["content-output.js"]
-    }
-  ],
   "permissions": [
-    "storage",
-    "notifications",
+    "activeTab",
     "contextMenus"
   ],
   "background": {
-    "scripts": ["eventPage.js"],
+    "scripts": ["background.js"],
     "persistent": false
   }
 }
