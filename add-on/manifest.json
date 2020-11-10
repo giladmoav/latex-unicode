@@ -7,5 +7,14 @@
       "matches": ["https://web.whatsapp.com/"],
       "js": ["content-output.js"]
     }
-  ]
+  ],
+  "permissions": [
+    "storage",
+    "notifications",
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  }
 }
