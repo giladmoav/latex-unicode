@@ -23,7 +23,7 @@ click **"Load unpacked"** and choose the **"add-on" folder**.
 ## Using the extension:
 
 
-write your Whatsapp and use `$$some latex code$$` then highlight it and click it.
+Write your Latex code, then highlight it, right click and choose "Convert latex to unicode"
 
 
-![an example](https://github.com/giladmoav/latex-unicode/blob/master/readme%20images/example.PNG?raw=true)
+![an example](https://github.com/giladmoav/latex-unicode/blob/master/readme%20images/example.gif?raw=true)
